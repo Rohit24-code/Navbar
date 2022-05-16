@@ -7,8 +7,6 @@ import Links from './components/Links'
 
 let arr=["Servies","Projects","About"]
 
-
-
 function App() {
   return (
     <>

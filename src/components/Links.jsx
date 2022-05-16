@@ -6,5 +6,4 @@ function Links(props) {
         })}
     </div>
 }
-
 export default Links
