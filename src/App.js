@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import './styles/Nav.css'
+import Logo  from './components/Logo';
+import Button from './components/Button'
+import Links from './components/Links'
+
+let arr=["Servies","Projects","About"]
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='Nav' >
+      <Logo from="LOGOBAKERY"/>
+    <Links iterate={arr}/>
+      <Button btn="contact"/>
+     
     </div>
+    </>
   );
 }
 
